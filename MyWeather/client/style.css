@@ -1,0 +1,121 @@
+body {
+  min-height: 100vh;
+  background: url(.//dist/assets/background-ad9a490a.jpeg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Gloock', serif;
+  font-weight: 300;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 400px;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+  text-align: center;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  color: rgb(8, 10, 31);
+  font-size: 35px;
+  font-style: italic;
+  font-family: 'Bruno Ace SC';
+}
+
+.input:focus {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  transition: 0.3s;
+  border: 0px;
+  outline: none;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: rgb(203 199 219);
+  bottom: 95px;
+  left: 20px;
+  width: 230px;
+  height: 100px;
+  background-color: rgb(20, 24, 60);
+  border-radius: 10px;
+  padding-left: 10px;
+  box-shadow: 0 0 13px rgb(203 199 219);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0);
+
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 400px;
+  transition: 0.5s;
+  background-color: rgb(20, 24, 60);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 13px rgb(203 199 219);
+}
+
+.weatherBlock {
+  width: 300px;
+  height: 360px;
+  background-color: white;
+  margin: 20px 10px 10px 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 13px rgb(203 199 219);
+}
+
+.weather:hover {
+  box-shadow: 0 0 40px rgb(203 199 219);
+  transition: 0.3s;
+}
+
+.blockImg {
+  display: flex;
+  margin-left: 45px;
+  margin-top: 70px;
+  width: 200px;
+  height: 200px;
+}
+
+.blockInfo {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.Info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.logo {
+  position: fixed;
+  top: 15px;
+  right: -25px;
+  transform: translate(-50%, 0%);
+}
+
+.logoImg {
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 20px rgb(55, 88, 17);
+}
